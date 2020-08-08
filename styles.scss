@@ -1,0 +1,49 @@
+
+body {
+    display: block;
+    margin-top: 350px;
+}
+  
+div {
+    width: 60px;
+    height: 58px;    
+    transition: width 1s ease-in-out;
+    display: block;
+    margin-left: auto;      
+}
+  
+div:hover {
+    width: 225px;          
+}
+
+.media__blog {
+    background: #e17b77;
+    color: white; 
+    overflow: hidden;
+}
+.media__twitter {
+    background-color: #00aced;
+    color: white; 
+    overflow: hidden; 
+}
+.media__linkedin {
+    background-color: #007bb6;
+    color: white;   
+    overflow: hidden; 
+}
+.media__facebook {
+    background-color: #3b5998;
+    color: white;  
+    overflow: hidden; 
+}
+.media__github {    
+    background-color: #333;
+    color: white; 
+    overflow: hidden; 
+}
+
+i {
+    margin-left: 7px;
+    margin-top: 7px
+}
+  
